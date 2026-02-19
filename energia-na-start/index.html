@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 id="quizHeading" class="brand">Quiz</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="setupStage" class="stage-card">
+      <h2 class="page-title">Ustawienia quizu</h2>
+      <div class="toolbar">
+        <label class="label" for="groupCount">
+          <select id="groupCount"></select>
+        </label>
+        <button id="startQuizBtn" type="button" class="secondary start-btn">🚀 Rozpocznij quiz</button>
+      </div>
+
+
+      <h3 class="section-title">Grupy biorące udział</h3>
+      <div id="setupGroups" class="name-grid"></div>
+    </section>
+
+    <section id="playStage" class="stage-card" hidden>
+      <div class="play-head">
+        <p id="questionCounter" class="small"></p>
+      </div>
+
+      <div class="play-layout">
+        <article class="question-panel">
+          <p id="questionText" class="question-big"></p>
+          <div id="questionAnswers" class="question-answers"></div>
+          <p id="awardInfo" class="small"></p>
+          <div class="footer-nav">
+            <button id="nextQuestionBtn" type="button" disabled>Następne pytanie</button>
+            <button id="endQuizBtn" type="button" class="secondary">Zakończ quiz</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div id="awardModal" class="modal" hidden>
+      <div class="modal-backdrop"></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="awardTitle">
+        <h2 id="awardTitle" class="modal-title">Ktora druzyna zyskuje punkt?</h2>
+        <div id="awardGroups" class="answer-groups"></div>
+      </div>
+    </div>
+
+    <section id="resultsStage" class="stage-card" hidden>
+      <h2 class="page-title">Wyniki końcowe</h2>
+      <p id="resultsLead" class="small"></p>
+      <div id="resultsTable" class="leaderboard"></div>
+      <div class="footer-nav">
+        <button id="restartBtn" type="button">Nowa rozgrywka</button>
+      </div>
+    </section>
+  </main>
+
+  <a class="corner-link" href="../index.html">Powrót do strony głównej</a>
+
+  <script src="../quiz-common.js"></script>
+  <script src="./quiz.js"></script>
+</body>
+</html>

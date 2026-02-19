@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Który posiłek najlepiej wspiera energię na początek dnia?",
+    "answers": [
+      "Śniadanie z białkiem, pełnym ziarnem i owocem",
+      "Sama kawa na czczo",
+      "Słodki napój gazowany"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Co pomaga utrzymać stabilny poziom energii przez dzień?",
+    "answers": [
+      "Długie przerwy i jeden duży posiłek",
+      "Regularne posiłki i nawodnienie",
+      "Pomijanie obiadu"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Który wybór to lepsza przekąska przed wysiłkiem?",
+    "answers": [
+      "Baton i napój energetyczny",
+      "Banana oraz garść orzechów",
+      "Tylko słodycze"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Dlaczego warto pić wodę w ciągu dnia?",
+    "answers": [
+      "Bo wspiera koncentrację i wydolność",
+      "Nie ma to znaczenia",
+      "Woda jest potrzebna tylko latem"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Która kolacja zwykle bardziej sprzyja regeneracji?",
+    "answers": [
+      "Lekki posiłek z warzywami i źródłem białka",
+      "Bardzo tłuste fast food",
+      "Brak kolacji"
+    ],
+    "correctIndex": 0
+  }
+]

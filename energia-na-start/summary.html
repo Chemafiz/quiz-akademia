@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Podsumowanie quizu</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 id="summaryHeading" class="brand">Podsumowanie</h1>
+      <p class="subtitle">Wyniki końcowe drużyn</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="footer-nav">
+      <a class="button ghost" href="./index.html">Wróć do quizu</a>
+      <a class="button ghost" href="../index.html">Strona główna</a>
+      <button id="resetBtn" type="button" class="secondary">Nowa rozgrywka</button>
+    </div>
+
+    <section>
+      <div id="winnerBox" class="winner"></div>
+      <div id="summaryTable" class="leaderboard"></div>
+    </section>
+  </main>
+
+  <script src="../quiz-common.js"></script>
+  <script src="./summary.js"></script>
+</body>
+</html>
