@@ -1,47 +1,209 @@
 [
   {
-    "question": "Który posiłek najlepiej wspiera energię na początek dnia?",
+    "question": "Jaki makroskładnik jest głównym źródłem energii dla organizmu?",
     "answers": [
-      "Śniadanie z białkiem, pełnym ziarnem i owocem",
-      "Sama kawa na czczo",
-      "Słodki napój gazowany"
+      "Białko",
+      "Tłuszcze",
+      "Węglowodany"
     ],
-    "correctIndex": 0
+    "correctIndex": 2
   },
   {
-    "question": "Co pomaga utrzymać stabilny poziom energii przez dzień?",
+    "question": "Co najbardziej pomaga w koncentracji?",
     "answers": [
-      "Długie przerwy i jeden duży posiłek",
-      "Regularne posiłki i nawodnienie",
-      "Pomijanie obiadu"
+      "Czekolada",
+      "Słodkie napoje",
+      "Sen i śniadanie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Najlepsze źródło białka na śniadanie to:",
+    "answers": [
+      "Mleko",
+      "Jajka",
+      "Płatki owsiane"
     ],
     "correctIndex": 1
   },
   {
-    "question": "Który wybór to lepsza przekąska przed wysiłkiem?",
+    "question": "Co szybciej podnosi cukier we krwi?",
     "answers": [
-      "Baton i napój energetyczny",
-      "Banana oraz garść orzechów",
-      "Tylko słodycze"
+      "Pszenna biała bułka",
+      "Batonik czekoladowy",
+      "Jogurt naturalny"
     ],
     "correctIndex": 1
   },
   {
-    "question": "Dlaczego warto pić wodę w ciągu dnia?",
+    "question": "Mózg jako paliwo najbardziej lubi:",
     "answers": [
-      "Bo wspiera koncentrację i wydolność",
-      "Nie ma to znaczenia",
-      "Woda jest potrzebna tylko latem"
+      "Tłuszcz",
+      "Glukozę",
+      "Sól"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Po zjedzeniu bardzo słodkiej przekąski często czujemy:",
+    "answers": [
+      "Energię przez 5 h",
+      "Senność po dłuższej chwili",
+      "Większą koncentrację na cały dzień"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Który składnik spowalnia wchłanianie cukru?",
+    "answers": [
+      "Błonnik",
+      "Barwniki",
+      "Aromaty"
     ],
     "correctIndex": 0
   },
   {
-    "question": "Która kolacja zwykle bardziej sprzyja regeneracji?",
+    "question": "Najwięcej „pustych kalorii” mają:",
     "answers": [
-      "Lekki posiłek z warzywami i źródłem białka",
-      "Bardzo tłuste fast food",
-      "Brak kolacji"
+      "Orzechy",
+      "Chipsy",
+      "Warzywa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Gdy nie jesz śniadania, możesz:",
+    "answers": [
+      "Mieć problemy z koncentracją",
+      "Mieć więcej energii",
+      "Spożyć więcej cukru"
     ],
     "correctIndex": 0
+  },
+  {
+    "question": "Co powoduje szybki spadek energii po słodyczach?",
+    "answers": [
+      "Spadek poziomu insuliny",
+      "Nagły wyrzut i spadek cukru",
+      "Brak witamin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Jeśli jesteś ciągle zmęczony, powodem może być:",
+    "answers": [
+      "Brak snu",
+      "Nieregularne posiłki",
+      "Obie odpowiedzi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Co ma więcej kcal?",
+    "answers": [
+      "Garść orzechów",
+      "Baton",
+      "Jabłko"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Największy „złodziej energii” w ciągu dnia to:",
+    "answers": [
+      "Brak ruchu",
+      "Nieregularne jedzenie",
+      "Obie odpowiedzi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Mózg zużywa około:",
+    "answers": [
+      "5% energii organizmu",
+      "20% energii organizmu",
+      "50% energii organizmu"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Odwodnienie może powodować:",
+    "answers": [
+      "Ból głowy",
+      "Spadek koncentracji",
+      "Obie odpowiedzi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Które śniadanie da energię na najdłużej?",
+    "answers": [
+      "Płatki czekoladowe z mlekiem",
+      "Owsianka + orzechy + owoce",
+      "Drożdżówka"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Co sprawi, że owsianka będzie pełnowartościowa?",
+    "answers": [
+      "Dodatek masła orzechowego",
+      "Dodanie jogurtu naturalnego, orzechów i owoców",
+      "Dodanie owoców"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Który produkt ma więcej błonnika?",
+    "answers": [
+      "Chleb biały",
+      "Chleb pełnoziarnisty",
+      "Kajzerka"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Pominięcie śniadania może powodować:",
+    "answers": [
+      "Napady głodu później",
+      "Większą energię cały dzień",
+      "Lepszą koncentrację"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Jeśli po śniadaniu jesteś głodny po 30 minutach, to:",
+    "answers": [
+      "Nie było pełnowartościowe",
+      "Zjadłeś za dużo warzyw",
+      "Każdy tak ma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Co lepsze na śniadanie?",
+    "answers": [
+      "Smoothie z 3 owoców",
+      "Owoc + jogurt + orzechy",
+      "Sok owocowy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Co bardziej syci?",
+    "answers": [
+      "Sok pomarańczowy",
+      "Cała pomarańcza",
+      "Woda z cytryną"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "„Sok to to samo co owoc”",
+    "answers": [
+      "Tak",
+      "Nie",
+      "Zależy"
+    ],
+    "correctIndex": 1
   }
 ]

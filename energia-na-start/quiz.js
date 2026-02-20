@@ -128,7 +128,6 @@ function renderAnswerGroups() {
       state.groups[index].points += 1;
       state.lastAwardedGroupIndex = index;
       saveState();
-      awardInfo.textContent = `Dodano 1 punkt dla: ${group.name}`;
       nextQuestionBtn.disabled = false;
       renderAnswerGroups();
     });
@@ -200,11 +199,9 @@ function renderQuestion() {
   } else if (state.selectedAnswerIndex !== correctIndex) {
     nextQuestionBtn.disabled = false;
   } else if (state.lastAwardedGroupIndex === -1) {
-    awardInfo.textContent = "Ktora druzyna zyskuje punkt?";
     nextQuestionBtn.disabled = true;
   } else {
     const awardedName = state.groups[state.lastAwardedGroupIndex]?.name || "grupa";
-    awardInfo.textContent = `Dodano 1 punkt dla: ${awardedName}`;
     nextQuestionBtn.disabled = false;
   }
 
@@ -272,11 +269,7 @@ function renderResults() {
   const winnerPoints = ranking[0].points;
   const winners = ranking.filter((group) => group.points === winnerPoints).map((group) => group.name);
 
-  if (winners.length === 1) {
-    resultsLead.textContent = `Wygrywa: ${winners[0]} (${winnerPoints} pkt)`;
-  } else {
-    resultsLead.textContent = `Remis: ${winners.join(", ")} (${winnerPoints} pkt)`;
-  }
+
 
   resultsTable.innerHTML = "";
   ranking.forEach((group) => {

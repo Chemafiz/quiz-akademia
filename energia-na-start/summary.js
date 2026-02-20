@@ -23,11 +23,7 @@ function renderSummary() {
   const topPoints = ranking[0].points;
   const winners = ranking.filter((group) => group.points === topPoints);
 
-  if (winners.length === 1) {
-    winnerBox.textContent = `Wygrywa: ${winners[0].name} (${winners[0].points} pkt)`;
-  } else {
-    winnerBox.textContent = `Remis: ${winners.map((group) => group.name).join(", ")} (${topPoints} pkt)`;
-  }
+
 
   summaryTable.innerHTML = "";
   ranking.forEach((group, index) => {
